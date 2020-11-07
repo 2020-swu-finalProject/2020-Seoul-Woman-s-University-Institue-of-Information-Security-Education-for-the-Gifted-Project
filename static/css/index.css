@@ -1,0 +1,80 @@
+@font-face{
+  font-family: "Nanum_Gothic-Bold";
+  src: url("../font/Nanum_Gothic/NanumGothic-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Nanum_Gothic-Regular";
+  src: url("../font/Nanum_Gothic/NanumGothic-Regular.ttf");
+}
+
+@font-face{
+  font-family: "Noto_Sans_KR-Regular";
+  src: url("../font/Noto_Sans_KR/NotoSansKR-Regular.otf");
+}
+
+@font-face{
+  font-family: "Noto_Sans_KR-Bold";
+  src: url("../font/Noto_Sans_KR/NotoSansKR-Bold.otf");
+}
+
+body {
+  font-family: "Noto_Sans_KR-Regular"!important;
+}
+
+.main {
+  text-align: center;
+  align-items: center;
+  margin: 150px;
+  font-family: Noto_Sans_KR-Bold;
+}
+
+#btn{
+  font-size:20px;
+  font-weight: bold;
+  color: white;
+  background-color: #7289da;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration:none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.login{
+  margin-top: 10px;
+}
+
+#btn:hover{
+  color: #aaaaaa;
+  box-shadow: 1px 3px 0px 0px gray;
+}
+
+@media (min-width:1020px){
+  .agent-moblie{
+    display: none;
+  }
+
+  .agent-pc{
+    display: block;
+  }
+
+  .main_btn{
+    padding: 5px 0px 5px 0px;
+  }
+}
+  
+@media (max-width:1020px){
+  .agent-moblie{
+    display: block;
+  }
+
+  .agent-pc{
+    display: none;
+  }
+
+  .main_btn{
+    padding: 5px 0px 5px 0px;
+  }
+}
